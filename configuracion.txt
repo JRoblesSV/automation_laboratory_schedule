@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Configuracion>
+    <URLs>
+        <url_horarios name="url_horarios">https://www.etsidi.upm.es/Estudiantes/AgendaAcademica/AAHorarioClases</url_horarios>
+        <url_calendario name="url_calendario">https://www.etsidi.upm.es/Estudiantes/AgendaAcademica/AACalendario</url_calendario>
+    </URLs>
+    <Directorios>
+        <directorio_output name="directorio_output">output/</directorio_output>
+        <directorio_temp name="directorio_temp">temp/</directorio_temp>
+        <directorio_logs name="directorio_logs">logs/</directorio_logs>
+    </Directorios>
+    <Patrones>
+        <patron_lab name="patron_lab">Lab</patron_lab>
+        <patron_grado name="patron_grado">[A-Z]{1}\d{3}</patron_grado>
+        <patron_doble_grado name="patron_doble_grado">[A-Z]{2}\d{3}</patron_doble_grado>
+    </Patrones>
+</Configuracion>
